@@ -4,7 +4,6 @@ from llama_index.core.settings import Settings
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 import gradio as gr
 from gradio_pdf import PDF
-from pathlib import Path
 import os
 
 api_key = os.getenv('MISTRAL_API_KEY')
